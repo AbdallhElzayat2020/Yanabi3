@@ -1,0 +1,57 @@
+.carousel-inner {
+  height: fit-content;
+}
+
+.w-100 {
+  width: 100% !important;
+  height: 100vh;
+}
+
+.speical-prodcut img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.speical-prodcut .box {
+  transition: 0.5s;
+  text-align: center;
+  overflow: hidden;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.speical-prodcut .box:hover {
+  transform: translateY(10px);
+  box-shadow: 0 0 10px 3px #eee;
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+}
+
+.slide .carousel-item img {
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 5/2;
+}
+
+@media (max-width: 6px) {
+  .slide .carousel-item .one {
+    width: 400px;
+  }
+
+  .slide .carousel-item .two {
+    width: 445px;
+  }
+
+  .slide .carousel-item .three {
+    width: 400px;
+  }
+}

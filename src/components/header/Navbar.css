@@ -1,0 +1,73 @@
+.black {
+  background-color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .head {
+    font-size: 12px;
+    margin: 0 !important;
+  }
+}
+
+.navbar-brand img {
+  width: 70px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+/* buttons */
+.navbar .buttons .button {
+  font-size: 15px;
+  margin-left: 8px;
+  font-weight: normal;
+}
+
+.navbar .buttons .button i {
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+  .navbar .buttons .button {
+    font-size: 11px;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 990px) {
+  .navbar .buttons .button {
+    font-size: 16px;
+    margin: 5px;
+  }
+}
+
+.navbar .former .lable {
+  background-color: transparent;
+  color: #fff;
+}
+
+.navbar .former .lable::placeholder {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .navbar .former {
+    margin: 14px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar .former .butt {
+    margin-left: 3px;
+    height: 45px;
+  }
+  .dropdown-item {
+    font-size: 15px;
+  }
+}
+
+/* buttons */

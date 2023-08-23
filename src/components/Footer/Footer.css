@@ -1,0 +1,39 @@
+.footer {
+  background-color: #131212 !important;
+  height: 300px;
+  overflow-x: hidden;
+}
+
+.footer .image {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+@media (max-width: 990px) {
+  .footer {
+    background-color: #000 !important;
+    height: 480px;
+  }
+}
+@media (max-width: 768px) {
+  .footer .text {
+    margin-bottom: 15px;
+  }
+  .footer .links-main {
+    margin: 15px auto;
+  }
+  .footer .pragraph {
+    margin-bottom: 20px;
+  }
+  .footer .text-foot {
+    margin-bottom: 15px;
+  }
+}
+.footer .fs-6 {
+  font-size: 0.7rem !important;
+}

@@ -1,0 +1,23 @@
+section {
+  padding-top: 80px;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  margin: 10px auto;
+}
+
+.height {
+  height: 150px;
+}
+
+.one {
+  margin: 5px;
+}
+
+@media (max-width: 650px) {
+  .one {
+    margin: 3px;
+  }
+}

@@ -1,0 +1,18 @@
+.contact {
+    height: calc(100vh - 200px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+
+    /* background-image: url(../../images/05.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+@media(max-width:767px) {
+    .contact .onee {
+        margin-top: 10px;
+    }
+}

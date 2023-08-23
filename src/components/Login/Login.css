@@ -1,0 +1,24 @@
+.login img {
+  height: 450px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+@media (max-width: 991px) {
+  .login img {
+    border-radius: 15px;
+    margin: 20px auto;
+
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .login img {
+    height: 200px;
+  }
+}

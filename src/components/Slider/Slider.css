@@ -1,0 +1,18 @@
+.slide .carousel-item img {
+    height: calc(100vh - 150px);
+    width: 100%;
+}
+
+@media(max-width:400px) {
+    .slide .carousel-item .one {
+        width: 400px;
+    }
+
+    .slide .carousel-item .two {
+        width: 445px;
+    }
+
+    .slide .carousel-item .three {
+        width: 400px;
+    }
+}

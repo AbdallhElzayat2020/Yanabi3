@@ -1,0 +1,22 @@
+.user {
+    height: 100%;
+}
+
+.user .one a {
+    text-decoration: none;
+    color: #000;
+}
+
+.user .one {
+    border-bottom: 1px solid #000;
+}
+
+.user .side {
+    height: 100%;
+}
+
+@media (max-width:768px) {
+    .user {
+        height: 100%;
+    }
+}
